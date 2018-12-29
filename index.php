@@ -46,6 +46,5 @@ function report_card_list(){
 function hs_student_reports_admin_menu(){
     add_menu_page('Report cards','Report cards','manage_options','hs-stu-report-cards','report_card_list','dashicons-id','2');
     add_submenu_page('hs-stu-report-cards','Add card','Add card','manage_options','add_report_card','add_report_card');
-/*    add_submenu_page('hs-matrimony','Matrimony Settings','Matrimony Settings','manage_options','hsmat-settings','hsmat_settings'); //*/
 }
 add_action('admin_menu' , 'hs_student_reports_admin_menu');
